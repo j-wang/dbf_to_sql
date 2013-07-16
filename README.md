@@ -17,7 +17,7 @@ pip install dbf
 pip install sqlalchemy
 ```
     
-More documentation available on [Read the Docs](http://dbf_to_sql.readthedocs.org).
+More documentation available on [Read the Docs](https://dbf_to_sql.readthedocs.org/en/latest).
 
 Version Warning
 -------
