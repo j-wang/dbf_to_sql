@@ -12,10 +12,10 @@ At this stage, I would not suggest using this for any dialect other than sqlite 
 
 Requires [dbf](https://pypi.python.org/pypi/dbf) and [SQLAlchemy](http://www.sqlalchemy.org/) (both of which are open source and available through pip install).
 
-    ```python
-    pip install dbf
-    pip install sqlalchemy
-    ```
+```python
+pip install dbf
+pip install sqlalchemy
+```
     
 More documentation available on [Read the Docs](http://dbf_to_sql.readthedocs.org).
 
@@ -31,15 +31,14 @@ Usage
 --------
 You can convert directories of DBF tables directly:
 
-    ```python
-    import dbf_to_sql
-    
-    fp2sql = dbf_to_sql.Converter('sqldata.db')
-    fp2sql.convert_dbfs('foxpro_app/data/')
-    ```
+```python
+import dbf_to_sql
+fp2sql = dbf_to_sql.Converter('sqldata.db')
+fp2sql.convert_dbfs('foxpro_app/data/')
+```
 
 Or just individual tables:
 
-    ```python
-    fp2.sql.convert_dbf('clients.dbf')
-    ```
+```python
+fp2.sql.convert_dbf('clients.dbf')
+```
