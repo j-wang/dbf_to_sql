@@ -16,6 +16,8 @@ Requires [dbf](https://pypi.python.org/pypi/dbf) and [SQLAlchemy](http://www.sql
     pip install dbf
     pip install sqlalchemy
     ```
+    
+More documentation available on [Read the Docs](http://dbf_to_sql.readthedocs.org).
 
 Version Warning
 -------
